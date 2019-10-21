@@ -1,0 +1,3 @@
+catalogURL:     "http://localhost:8010/nsd/v1/ns_descriptors/"
+adaptationLayerURL:     "http://localhost:8011/"
+checkNsCreation:        false
