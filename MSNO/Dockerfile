@@ -1,6 +1,9 @@
 FROM ubuntu:bionic
 
+WORKDIR /etc/msno
+COPY Config/config.yaml /etc/msno
+
 WORKDIR /App
 COPY App/ /App
 
-CMD /App/storage & /App/msno
+CMD /App/storage & /App/msno & /App/msc_mock
