@@ -1,11 +1,11 @@
 # Multi-Site Network Service Orchestrator Testing
 This report contains the result of the MSNO testing for MS8, according to [D3.6](https://www.5g-eve.eu/wp-content/uploads/2019/11/5g-eve-d3.6-interworking-test-suites.pdf)
 
-| Test Name | Test Description | Test Case | Result | Comments |
-| --------- | ---------------- | --------- | ------ | -------- |
-| Test 1 - Network Service ID creation | The purpose of this test is to validate the creation of a NS ID. | T1.1 Positive test | Partial passed | Test passed with the MS8 scope. Exception: Notification is not sent as is not supported yet |
-| Test 1 - Network Service ID creation | The purpose of this test is to validate the creation of a NS ID. | T1.2 Wrong headers | Passed |  |
-| Test 1 - Network Service ID creation | The purpose of this test is to validate the creation of a NS ID. | T1.3 Incorrect CreateNsRequest | Passed |  |
+| Test Name | Test Description | Config |Test Case | Result | Comments |
+| --------- | ---------------- | ------ |--------- | ------ | -------- |
+| Test 1 - Network Service ID creation | MSNO BASIC CONF | The purpose of this test is to validate the creation of a NS ID. | T1.1 Positive test | Partial passed | Test passed with the MS8 scope. Exception: Notification is not sent as is not supported yet |
+| Test 1 - Network Service ID creation | MSNO BASIC CONF | The purpose of this test is to validate the creation of a NS ID. | T1.2 Wrong headers | Passed |  |
+| Test 1 - Network Service ID creation | MSNO BASIC CONF | The purpose of this test is to validate the creation of a NS ID. | T1.3 Incorrect CreateNsRequest | Passed |  |
 
 ## Evidences
 
