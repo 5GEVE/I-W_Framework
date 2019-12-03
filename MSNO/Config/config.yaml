@@ -1,4 +1,3 @@
 catalogURL:           "http://localhost:8010/nsd/v1"
 adaptationLayerURL:   "http://localhost:8011"
-storageURL:           "http://localhost:8001/msno/v1/storage",
-checkNsCreation:      false
+storageURL:           "http://localhost:8001/msno/v1/storage"
