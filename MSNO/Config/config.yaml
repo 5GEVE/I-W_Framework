@@ -1,3 +1,3 @@
-catalogURL:     "http://localhost:8010/nsd/v1/ns_descriptors/"
-adaptationLayerURL:     "http://localhost:8011/"
-checkNsCreation:        false
+catalogURL:           "http://localhost:8010/nsd/v1"
+adaptationLayerURL:   "http://localhost:8011"
+storageURL:           "http://localhost:8001/msno/v1/storage"
