@@ -3,9 +3,9 @@ This report contains the result of the MSNO testing for MS8, according to [D3.6]
 
 | Test Name | Test Description | Config |Test Case | Result | Comments |
 | --------- | ---------------- | ------ |--------- | ------ | -------- |
-| Test 1 - Network Service ID creation | MSNO BASIC CONF | The purpose of this test is to validate the creation of a NS ID. | T1.1 Positive test | Partial passed | Test passed with the MS8 scope. Exception: Notification is not sent as is not supported yet |
-| Test 1 - Network Service ID creation | MSNO BASIC CONF | The purpose of this test is to validate the creation of a NS ID. | T1.2 Wrong headers | Passed |  |
-| Test 1 - Network Service ID creation | MSNO BASIC CONF | The purpose of this test is to validate the creation of a NS ID. | T1.3 Incorrect CreateNsRequest | Passed |  |
+| Test 1 - Network Service ID creation | The purpose of this test is to validate the creation of a NS ID. | MSNO BASIC CONF | T1.1 Positive test | Partial passed | Test passed with the MS8 scope. Exception: Notification is not sent as is not supported yet |
+| Test 1 - Network Service ID creation | The purpose of this test is to validate the creation of a NS ID. | MSNO BASIC CONF | T1.2 Wrong headers | Passed |  |
+| Test 1 - Network Service ID creation | The purpose of this test is to validate the creation of a NS ID. | MSNO BASIC CONF | T1.3 Incorrect CreateNsRequest | Passed |  |
 
 ## Evidences
 
