@@ -80,9 +80,12 @@ instance
 5. In case that target 5G EVE site is not in the supported sites list, the request is rejected
 6. MSNO determines which site NFV-O will use for deploying the NS
 (MS8 drop only supports single-site NS) 
-7. MSNO generates a CreateNsRequest towards the selected NFV-O, through the Adaptation Layer
-8. In case of success, MSNO stores the mapping between NS Instance ID and the UUID provided by the site NFV-O
-9. MSNO instantiates the NS in the local NFV-O
+7. MSNO checks if the NS has been deployed in a site.
+8. In case that the target site is different to the site that has onboarded the NS, MSNO sends a 403 Forbidden error.
+If the local site is the same, MSNO skips onboarding phase (steps 9, 10) and sends an Instantiation request (step 11) 
+9. MSNO generates a CreateNsRequest towards the selected NFV-O, through the Adaptation Layer
+10. In case of success, MSNO stores the mapping between NS Instance ID and the UUID provided by the site NFV-O
+11. MSNO instantiates the NS in the local NFV-O
 10. A positive response is generated
 
 In case of error during the workflow, the MSNO raises the rollback procedure, which is in charge of deleting any NS 
