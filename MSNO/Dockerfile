@@ -1,4 +1,4 @@
-FROM ubuntu:bionic
+FROM alpine
 
 WORKDIR /etc/msno
 COPY Config/config.yaml /etc/msno
