@@ -1,0 +1,9 @@
+FROM alpine
+
+WORKDIR /etc/msno
+COPY Config/config.yaml /etc/msno
+
+WORKDIR /App
+COPY App/msno /App
+
+CMD ["/App/msno"]

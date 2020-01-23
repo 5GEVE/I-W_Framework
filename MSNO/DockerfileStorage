@@ -1,0 +1,6 @@
+FROM alpine
+
+WORKDIR /App
+COPY App/storage /App
+
+CMD ["/App/storage"]
