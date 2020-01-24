@@ -4,6 +4,6 @@ WORKDIR /etc/msno
 COPY Config/config_msno.yaml /etc/msno/config.yaml
 
 WORKDIR /App
-COPY App/msno /App
+COPY App/ /App
 
-CMD ["/App/msno"]
+CMD /App/msno & /App/msc_mock
