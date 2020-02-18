@@ -1,4 +1,9 @@
 {
  "nsFlavourId": "",
- "additionalParamsForNs": {"target-site": "FRANCE_PARIS"},
+"additionalParamsForNs": {
+  "kvs": [{
+    "key": "target-site",
+    "value": "FRANCE_PARIS"
+  }],
+},
 }
