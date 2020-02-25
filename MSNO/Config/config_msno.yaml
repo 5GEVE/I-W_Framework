@@ -1,0 +1,3 @@
+"catalogURL":           "http://10.50.80.10:8083/nsd/v1"
+"adaptationLayerURL":   "http://10.50.80.16:80/"
+"storageURL":           "http://10.50.80.16:8001/msno/v1/storage"

@@ -1,7 +1,7 @@
 FROM alpine
 
 WORKDIR /etc/msno
-COPY Config/config.yaml /etc/msno
+COPY Config/config_msno.yaml /etc/msno/config.yaml
 
 WORKDIR /App
 COPY App/msno /App

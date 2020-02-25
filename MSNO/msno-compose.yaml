@@ -1,0 +1,29 @@
+version: '3'
+services:
+  mongodb:
+    build: ./
+      dockeefile: DockerfileMongo
+    image: mongodb
+    volumes:
+      - mongodbvolume:/data/db
+    ports:
+    - "27017:27017"
+  storage:
+    build: ./
+      dockerfile: DockerfileStorage
+    image: storage_config
+    ports:
+      - "8001:8001"
+    depends_on:
+      - mongodb
+  msno:
+    build: ./
+      dockerfile: DockerfileMSNO
+    image: msno_config
+    ports:
+      - "8000:8000"
+    depends_on:
+      - storage
+volumes:
+  mongodbvolume:
+    driver: local
