@@ -1,4 +1,4 @@
 {
  "nsFlavourId": "",
- "additionalParamsForNs": {"target-site": "ITALY_TURIN"},
+ "additionalParamsForNs": {"kvs" : [{"key": "target-site", "value": "SPAIN_5TONIC"}]},
 }
