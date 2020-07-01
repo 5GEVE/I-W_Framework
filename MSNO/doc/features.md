@@ -91,6 +91,10 @@ If the local site is the same, MSNO skips onboarding phase (steps 9, 10) and sen
 In case of error during the workflow, the MSNO raises the rollback procedure, which is in charge of deleting any NS 
 created in a local NFV-O
 
+The selection of the NFV-O workflow is:
+
+![NFV-O](workflows/NFVO.png)
+
 ### Terminate NS
 Terminates a NS
 
