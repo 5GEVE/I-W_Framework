@@ -14,28 +14,26 @@ services:
     - brIPS
   storage:
     container_name: storage
-    build: 
-      context: ./
-      dockerfile: DockerfileStorage
-    image: storage_config
+    image: 5geve/storage
     ports:
     - "8001:8001"
     depends_on:
     - mongodb
     networks:
     - brIPS
+    volumes:
+    - ./etc:/etc
   msno:
     container_name: msno
-    build: 
-      context: ./
-      dockerfile: DockerfileMSNO
-    image: msno_config
+    image: 5geve/msno
     ports:
     - "8000:8000"
     depends_on:
     - storage
     networks:
     - brIPS
+    volumes:
+    - ./etc:/etc
 volumes:
   mongodbvolume:
     driver: local

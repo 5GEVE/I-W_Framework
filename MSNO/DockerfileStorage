@@ -1,9 +1,0 @@
-FROM alpine
-
-WORKDIR /App
-COPY App/storage /App
-
-WORKDIR /etc/storage
-COPY Config/config_storage.yaml /etc/storage/config.yaml
-
-CMD ["/App/storage"]
