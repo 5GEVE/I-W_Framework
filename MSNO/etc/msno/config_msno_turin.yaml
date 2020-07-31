@@ -1,0 +1,4 @@
+"catalogURL":           "http://172.17.73.102:8083/nsd/v1"
+"adaptationLayerURL":   "http://172.17.73.101:80/"
+"storageURL":           "http://172.17.73.101:8001/msno/v1/storage"
+"siteInventoryURL":     "http://172.17.73.101:8087"
